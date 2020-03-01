@@ -19,13 +19,13 @@ struct ContentView: View {
             CircleImage().offset(y: -130).padding(.bottom, -130)
             
             VStack(alignment:.leading) {
-                Text("Turle Rock")
+                Text("Vila Mariana")
                     .font(.title)
                 HStack {
-                    Text("Joshua Tree National Park")
+                    Text("Parque Ibirapuera")
                         .font(.subheadline)
                     Spacer()
-                    Text("California")
+                    Text("São Paulo")
                         .font(.subheadline)
                 }
             }.padding()
